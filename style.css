@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+  }
+  
+  body{
+    background-color: yellow;
+    margin: 10px;
+    
+  }
+  
+  main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+   
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  section{
+    margin-bottom: 20px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+  }
+  
+  
+  header h1{
+    border: 1px solid;
+    width: 180px;
+    background-color: whitesmoke;
+  }
+  
+  header{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  
+  #first section{
+    display: grid;
+    border: 1px solid;
+    width: 420px;
+    background-color: whitesmoke;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  #first h2{
+    text-align: center;
+  }
+  
+  
+  #third section{
+    display: grid;
+    border: 1px solid;
+    width: 420px;
+    background-color: whitesmoke;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  #third h2{
+    text-align: center;
+  
+  }
+  
+  #fifth section{
+    display: grid;
+    border: 1px solid;
+    width: 420px;
+    background-color: whitesmoke;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  #fifth h2{
+    text-align: center;
+  }
+  
